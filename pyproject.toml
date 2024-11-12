@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "projecto-01"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Lange"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+streamlit = "^1.40.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
